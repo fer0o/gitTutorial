@@ -1,0 +1,6 @@
+Aqui va a estar el manual para que Mocos aprenda github
+
+git add nos sirve para registrar todos los ultimos cambios hechos en el archivo, proyecto o documento
+
+git commit -m "Commit message": Records staged changes with a descriptive message. 
+con git commit -m agregamos una descripcion de lo ultimo que hicimos en el proyecto
