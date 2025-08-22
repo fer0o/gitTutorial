@@ -1,0 +1,46 @@
+Aqui va a estar el manual para que Mocos aprenda github
+
+git add nos sirve para registrar todos los ultimos cambios hechos en el archivo, proyecto o documento
+
+git commit -m "Commit message": Records staged changes with a descriptive message. 
+con git commit -m agregamos una descripcion de lo ultimo que hicimos en el proyecto
+
+
+Leelo y practica mocos 
+
+Basic Setup & Configuration:
+git config --global user.name "Your Name": Sets the author name for all commits.
+git config --global user.email "you@example.com": Sets the email for all commits.
+git init: Initializes a new Git repository in the current directory.
+git clone <url>: Clones an existing repository from a URL. 
+Staging & Committing:
+git status: Shows the status of your working directory and staging area.
+git add <file>: Adds a specific file to the staging area. 
+git add .: Adds all modified and new files to the staging area. 
+git commit -m "Commit message": Records staged changes with a descriptive message. 
+Branching:
+git branch: Lists all local branches.
+git branch <branch-name>: Creates a new branch.
+git checkout <branch-name>: Switches to a different branch.
+git checkout -b <new-branch>: Creates and switches to a new branch.
+git merge <branch-to-merge>: Merges changes from a specified branch into the current branch.
+git branch -d <branch-name>: Deletes a local branch (if merged).
+git branch -D <branch-name>: Force-deletes a local branch (even if unmerged).
+Remote Operations:
+git remote -v: Shows configured remote repositories.
+git fetch <remote>: Downloads changes from a remote repository without merging.
+git pull <remote> <branch>: Fetches and merges changes from a remote branch.
+git push <remote> <branch>: Uploads local commits to a remote repository.
+History & Undo:
+git log: Shows the commit history.
+git log --oneline: Shows a concise commit history.
+git diff: Shows unstaged changes.
+git diff --staged: Shows staged changes.
+git reset <file>: Unstages a file.
+git revert <commit-id>: Creates a new commit that undoes a previous commit.
+git amend --no-edit: Amends the last commit to include new staged changes.
+Stashing:
+git stash: Stashes current changes in the working directory.
+git stash list: Lists all stashed changes.
+git stash apply: Applies the most recently stashed changes.
+git stash drop: Deletes the most recently stashed changes.
